@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.w2016.noacceleration">
+
+    <application
+        android:label="Noacceleration">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="伪装加速度传感器数据为0.0001 Camouflage acceleration sensor data to 0.0001" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="31" />
+    </application>
+
+</manifest>
