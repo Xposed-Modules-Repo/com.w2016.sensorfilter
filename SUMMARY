@@ -1,1 +1,1 @@
-伪装加速度传感器数据为0.0001 Camouflage acceleration sensor data to 0.0001
+降低传感器采样率（所有传感器降低到50HZ及以下）和采样深度(对加速度传感器取整)
