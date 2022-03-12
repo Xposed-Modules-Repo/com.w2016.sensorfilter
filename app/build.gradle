@@ -9,8 +9,8 @@ android {
         applicationId "com.w2016.sensorfilter"
         minSdk 3
         targetSdk 27
-        versionCode 3
-        versionName "2.1"
+        versionCode 4
+        versionName "2.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

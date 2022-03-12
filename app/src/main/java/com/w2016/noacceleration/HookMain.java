@@ -83,7 +83,7 @@ public class HookMain implements IXposedHookLoadPackage {
                     super.beforeHookedMethod(param);
                     if (param.args[0] != null) {
                         param.args[2] =  replace_delayUs((Integer) param.args[2]);
-                        new SensorHelper_API3((SensorListener) param.args[0]);
+                        new SensorHelper((SensorEventListener) param.args[0]);
                         XposedBridge.log("应用创建传感器监听" + lpparam.appInfo.name + "创建--linstener：" + param.args[0].toString() + "创建--type：" + param.args[1].toString());
                     }
                 }
