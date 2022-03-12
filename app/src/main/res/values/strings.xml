@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label">传感器滤镜</string>
+    <string name="desc">降低传感器采样率（所有传感器降低到50HZ及以下）和采样深度(对加速度传感器取整)</string>
+</resources>
