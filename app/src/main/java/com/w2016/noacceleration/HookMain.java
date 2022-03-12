@@ -169,7 +169,7 @@ public class HookMain implements IXposedHookLoadPackage {
 
 
     private int replace_delayUs(int originalDelayUs){
-        if (originalDelayUs > SensorManager.SENSOR_DELAY_FASTEST && originalDelayUs <= SensorManager.SENSOR_DELAY_GAME){
+        if ((originalDelayUs > SensorManager.SENSOR_DELAY_FASTEST && originalDelayUs <= SensorManager.SENSOR_DELAY_GAME) || originalDelayUs > 50*1000){
             return originalDelayUs;
         }
         return SensorManager.SENSOR_DELAY_GAME;
